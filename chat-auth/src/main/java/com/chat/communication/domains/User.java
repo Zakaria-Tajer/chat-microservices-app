@@ -2,6 +2,7 @@ package com.chat.communication.domains;
 
 
 import com.chat.communication.enums.Roles;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -30,6 +31,7 @@ public class User implements UserDetails {
     private String image;
 
     @Enumerated(EnumType.STRING)
+    @JsonProperty("Role")
     private Roles role;
 
     @Override

@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bc61bd2-bc9e-4ae6-8b31-a3cdc7cb4e50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-auth/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-auth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-communication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-communication/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/69501b28-ca87-4722-8d75-3650015ce9a2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/69501b28-ca87-4722-8d75-3650015ce9a2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/AuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/domains/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/domains/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/mappers/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/mappers/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/services/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/services/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,30 +54,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-19&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ed074a92621ceb092d1e554d50b6b24a&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-19",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "f484c62c5eb4bf5a201a69fc57283420",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chat.communication.user.dto" />
+      <recent name="com.chat.clients" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.AuthApplication">
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="chat-auth" />
@@ -71,6 +95,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.chat.communication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chat.eurekaserver.EurekaServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chat.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCommunication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user-communication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chat.communication.user.UserCommunication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chat.communication.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,6 +159,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AuthApplication" />
+        <item itemvalue="Spring Boot.UserCommunication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
@@ -125,7 +177,11 @@
       <workItem from="1689776914713" duration="2993000" />
       <workItem from="1689799886120" duration="2446000" />
       <workItem from="1689807869933" duration="7400000" />
-      <workItem from="1689878520235" duration="12532000" />
+      <workItem from="1689878520235" duration="20032000" />
+      <workItem from="1689980417960" duration="1197000" />
+      <workItem from="1690040163465" duration="2399000" />
+      <workItem from="1690112570953" duration="23154000" />
+      <workItem from="1690322188278" duration="4182000" />
     </task>
     <servers />
   </component>

@@ -6,14 +6,12 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import java.security.Key;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -64,7 +62,7 @@ public class JwtService {
         return extractClaim(token, Claims::getExpiration);
     }
 
-    private Claims extractAllClaims(String token) {
+    public Claims extractAllClaims(String token) {
         return Jwts
                 .parserBuilder()
                 .setSigningKey(getSigningKey())
@@ -72,6 +70,20 @@ public class JwtService {
                 .parseClaimsJws(token)
                 .getBody();
     }
+
+    public List<GrantedAuthority> extractAuthorities(String jwt) {
+        Claims claims = extractAllClaims(jwt);
+
+        List<String> roles = claims.get("roles", List.class);
+
+        // Add "ROLE_" prefix to each role and create a List of GrantedAuthority objects
+        List<GrantedAuthority> authorities = roles.stream()
+                .map(role -> new SimpleGrantedAuthority("ROLE_" + role))
+                .collect(Collectors.toList());
+
+        return authorities;
+    }
+
 
     private Key getSigningKey() {
         byte[] keyBytes = Decoders.BASE64.decode(SECRET_KEY);
