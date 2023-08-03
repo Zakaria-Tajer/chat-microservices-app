@@ -52,7 +52,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                         authorities
                 );
 
-                log.info("User Authorities: {}", authorities);
+                log.info("User Authenticated {}", authorities);
                 authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
 
                 SecurityContextHolder.getContext().setAuthentication(authToken);

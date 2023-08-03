@@ -12,6 +12,8 @@ services:
     volumes:
       - my-db:/var/lib/postgresql/data
 
-
+  chat-auth:
+    container_name: chat-auth
+    image: .
 volumes:
   my-db:

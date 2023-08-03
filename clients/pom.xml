@@ -9,4 +9,14 @@
     <artifactId>clients</artifactId>
     <name>Archetype - clients</name>
     <url>http://maven.apache.org</url>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+    </dependencies>
+
+
 </project>

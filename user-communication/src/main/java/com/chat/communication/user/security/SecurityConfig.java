@@ -25,7 +25,6 @@ import java.util.List;
 @EnableWebSecurity
 @RequiredArgsConstructor
 @EnableMethodSecurity
-@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig {
 
 

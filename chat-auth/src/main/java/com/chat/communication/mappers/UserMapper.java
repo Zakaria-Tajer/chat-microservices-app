@@ -15,7 +15,7 @@ public interface UserMapper {
     UserMapper INSTANCE = Mappers.getMapper(UserMapper.class);
 
 
-//    @Mapping(target = "Role", source = "Role")
+    @Mapping(target = "role", source = "role")
     UserDto userToUserDto(User user);
 
     @InheritInverseConfiguration

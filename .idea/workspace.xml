@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bc61bd2-bc9e-4ae6-8b31-a3cdc7cb4e50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-communication/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-communication/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/69501b28-ca87-4722-8d75-3650015ce9a2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/69501b28-ca87-4722-8d75-3650015ce9a2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/AuthApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/domains/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/domains/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/mappers/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/mappers/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/services/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/java/com/chat/communication/services/UserServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-auth/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-communication/src/main/java/com/chat/communication/user/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-communication/src/main/java/com/chat/communication/user/security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,36 +38,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-19",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "f484c62c5eb4bf5a201a69fc57283420",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-19&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f484c62c5eb4bf5a201a69fc57283420&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chat.clients.config" />
       <recent name="com.chat.communication.user.dto" />
       <recent name="com.chat.clients" />
     </key>
@@ -181,11 +167,21 @@
       <workItem from="1689980417960" duration="1197000" />
       <workItem from="1690040163465" duration="2399000" />
       <workItem from="1690112570953" duration="23154000" />
-      <workItem from="1690322188278" duration="4182000" />
+      <workItem from="1690322188278" duration="6309000" />
+      <workItem from="1690406392872" duration="1300000" />
+      <workItem from="1690415193474" duration="599000" />
+      <workItem from="1690673786164" duration="3593000" />
+      <workItem from="1690794842634" duration="1240000" />
+      <workItem from="1690919635231" duration="3521000" />
+      <workItem from="1691078748255" duration="777000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
